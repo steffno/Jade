@@ -1,2 +1,3 @@
 # Jade
-Application for my girlfirend
+Application for my girlfriend
+Made by Snenso AKA Stefnoot, Steffno, Stefano Di Dionisio, Haruko
