@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.GalleryFragment">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="599dp"
+                android:contentDescription="TODO"
+                android:src="@drawable/primobacio" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:fontFamily="monospace"
+                android:text="Una delle nostre prime foto dove ci baciamo, eravamo appena usciti dal primo pranzo insieme al White Bakery, ricordi? Avevamo mangiato fino a riempirci come ovetti"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerImageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="425dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"/>
+
+            <TextView
+                android:id="@+id/textViewPager"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:text="Ecco qua, il nostro primo pranzo a white bakery, più after pranzo. Non vedo l'ora di ritornare  a fare un pranzo spascio devasto solo io e te."
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="649dp"
+                android:src="@drawable/bacino" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:fontFamily="monospace"
+                android:text="Fotina di un bacino, non ricorso che momento speciale era, però boh, era carina quindi te la pigli"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerImageSliderMemozzi"
+                android:layout_width="match_parent"
+                android:layout_height="425dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewPager2"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:fontFamily="monospace"
+                android:text="Un pò di memozzi non fanno mai male, no? Anche se magari sembrano delle stupide immagini, per me non lo sono. Mi fanno venire momenti divertenti passati insieme, momenti felici e spensierati"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="566dp"
+                android:src="@drawable/aspassoconorso" />
+
+            <TextView
+                android:id="@+id/textViewOrso"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:fontFamily="monospace"
+                android:text="Questa foto invece sirale a estate 2020, stavamo facendo una passeggiata con Orso per il parco fluviale, guarda che faccia stanca che avevo! Ci credo ero e sono stanco di te. Nah non è vero. Gaurda che bellini col sole e al parco, luv u"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerImageSliderNapoli"
+                android:layout_width="match_parent"
+                android:layout_height="425dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewPAsseggiataNapoli"
+                android:layout_width="match_parent"
+                android:layout_height="148dp"
+                android:fontFamily="monospace"
+                android:text="Ti ricordi quella bellissima passeggiata che facemmo a Napoli? SI, proprio quella che ci fece salire la febbre giusto il giorno prima di fare il tampone per tonrare qui. Mamma mia che momenti di panico. Beh, è stata fottutamente meravigliosa come passeggiata, la rifarei mille volte. Cazzo sì. Però senza febbre la prossimma volta, pretty please"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

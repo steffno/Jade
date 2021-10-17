@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/raizen/AndroidStudioProjects/Jade/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w1240dp-v13/values-w1240dp-v13.xml",
+            "map": [
+                {
+                    "source": "/home/raizen/AndroidStudioProjects/Jade/app/src/main/res/values-w1240dp/dimens.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "42",
+                        "endOffsets": "54"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "42",
+                        "endOffsets": "93"
+                    }
+                },
+                {
+                    "source": "/home/raizen/AndroidStudioProjects/Jade/app/src/main/res/values-w1240dp/strings.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "119",
+                        "endOffsets": "170"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "98",
+                        "endColumns": "119",
+                        "endOffsets": "213"
+                    }
+                }
+            ]
+        }
+    ]
+}
