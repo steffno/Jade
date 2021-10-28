@@ -1,46 +1,51 @@
 com/example/jade/ui/home/HomeFragment.java
  com.example.jade.ui.home.HomeFragment
  com.example.jade.ui.home.HomeFragment$1
-com/example/jade/ui/home/HomeViewModel.java
- com.example.jade.ui.home.HomeViewModel
-com/example/jade/ui/slideshow/SlideshowViewModel.java
- com.example.jade.ui.slideshow.SlideshowViewModel
-com/example/jade/ui/gallery/GalleryViewModel.java
- com.example.jade.ui.gallery.GalleryViewModel
-com/example/jade/SliderItem.java
- com.example.jade.SliderItem
-com/example/jade/BuildConfig.java
- com.example.jade.BuildConfig
-com/example/jade/databinding/FragmentHomeBinding.java
- com.example.jade.databinding.FragmentHomeBinding
-com/example/jade/databinding/NavHeaderMainBinding.java
- com.example.jade.databinding.NavHeaderMainBinding
-com/example/jade/databinding/AppBarMainBinding.java
- com.example.jade.databinding.AppBarMainBinding
 com/example/jade/databinding/SideItemContainerBinding.java
  com.example.jade.databinding.SideItemContainerBinding
 com/example/jade/ui/gallery/GalleryFragment.java
  com.example.jade.ui.gallery.GalleryFragment
  com.example.jade.ui.gallery.GalleryFragment$1
+ com.example.jade.ui.gallery.GalleryFragment$10
  com.example.jade.ui.gallery.GalleryFragment$2
  com.example.jade.ui.gallery.GalleryFragment$3
  com.example.jade.ui.gallery.GalleryFragment$4
  com.example.jade.ui.gallery.GalleryFragment$5
-com/example/jade/ui/slideshow/SlideshowFragment.java
- com.example.jade.ui.slideshow.SlideshowFragment
- com.example.jade.ui.slideshow.SlideshowFragment$1
- com.example.jade.ui.slideshow.SlideshowFragment$2
-com/example/jade/SliderAdapter.java
- com.example.jade.SliderAdapter
- com.example.jade.SliderAdapter$SliderViewHolder
-com/example/jade/MainActivity.java
- com.example.jade.MainActivity
- com.example.jade.MainActivity$1
+ com.example.jade.ui.gallery.GalleryFragment$6
+ com.example.jade.ui.gallery.GalleryFragment$7
+ com.example.jade.ui.gallery.GalleryFragment$8
+ com.example.jade.ui.gallery.GalleryFragment$9
+com/example/jade/databinding/ContentMainBinding.java
+ com.example.jade.databinding.ContentMainBinding
 com/example/jade/databinding/FragmentGalleryBinding.java
  com.example.jade.databinding.FragmentGalleryBinding
 com/example/jade/databinding/FragmentSlideshowBinding.java
  com.example.jade.databinding.FragmentSlideshowBinding
-com/example/jade/databinding/ContentMainBinding.java
- com.example.jade.databinding.ContentMainBinding
+com/example/jade/ui/slideshow/SlideshowViewModel.java
+ com.example.jade.ui.slideshow.SlideshowViewModel
 com/example/jade/databinding/ActivityMainBinding.java
  com.example.jade.databinding.ActivityMainBinding
+com/example/jade/BuildConfig.java
+ com.example.jade.BuildConfig
+com/example/jade/SliderItem.java
+ com.example.jade.SliderItem
+com/example/jade/databinding/NavHeaderMainBinding.java
+ com.example.jade.databinding.NavHeaderMainBinding
+com/example/jade/databinding/AppBarMainBinding.java
+ com.example.jade.databinding.AppBarMainBinding
+com/example/jade/databinding/FragmentHomeBinding.java
+ com.example.jade.databinding.FragmentHomeBinding
+com/example/jade/ui/home/HomeViewModel.java
+ com.example.jade.ui.home.HomeViewModel
+com/example/jade/MainActivity.java
+ com.example.jade.MainActivity
+ com.example.jade.MainActivity$1
+com/example/jade/SliderAdapter.java
+ com.example.jade.SliderAdapter
+ com.example.jade.SliderAdapter$SliderViewHolder
+com/example/jade/ui/gallery/GalleryViewModel.java
+ com.example.jade.ui.gallery.GalleryViewModel
+com/example/jade/ui/slideshow/SlideshowFragment.java
+ com.example.jade.ui.slideshow.SlideshowFragment
+ com.example.jade.ui.slideshow.SlideshowFragment$1
+ com.example.jade.ui.slideshow.SlideshowFragment$2

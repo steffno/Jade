@@ -32,6 +32,18 @@ public final class FragmentGalleryBinding implements ViewBinding {
   public final ImageView imageView4;
 
   @NonNull
+  public final ImageView imageView5;
+
+  @NonNull
+  public final ImageView imageView6;
+
+  @NonNull
+  public final ImageView imageView7;
+
+  @NonNull
+  public final ImageView imageView8;
+
+  @NonNull
   public final ScrollView scrollView;
 
   @NonNull
@@ -39,6 +51,21 @@ public final class FragmentGalleryBinding implements ViewBinding {
 
   @NonNull
   public final TextView textView3;
+
+  @NonNull
+  public final TextView textViewAereoPorto;
+
+  @NonNull
+  public final TextView textViewAfterSex;
+
+  @NonNull
+  public final TextView textViewCosaCarina;
+
+  @NonNull
+  public final TextView textViewMareValde;
+
+  @NonNull
+  public final TextView textViewNoiCarini;
 
   @NonNull
   public final TextView textViewOrso;
@@ -53,7 +80,31 @@ public final class FragmentGalleryBinding implements ViewBinding {
   public final TextView textViewPager2;
 
   @NonNull
+  public final TextView textViewPranzoNapoli;
+
+  @NonNull
+  public final TextView textViewPrimoPranzoNapoli;
+
+  @NonNull
+  public final TextView textViewSecondoMare;
+
+  @NonNull
+  public final TextView textViewSoleNapoli;
+
+  @NonNull
+  public final ViewPager2 viewPagerAfterSex;
+
+  @NonNull
+  public final ViewPager2 viewPagerCarini;
+
+  @NonNull
+  public final ViewPager2 viewPagerImageMare2;
+
+  @NonNull
   public final ViewPager2 viewPagerImageSlider;
+
+  @NonNull
+  public final ViewPager2 viewPagerImageSliderMare;
 
   @NonNull
   public final ViewPager2 viewPagerImageSliderMemozzi;
@@ -61,27 +112,57 @@ public final class FragmentGalleryBinding implements ViewBinding {
   @NonNull
   public final ViewPager2 viewPagerImageSliderNapoli;
 
+  @NonNull
+  public final ViewPager2 viewPagerImageSliderPranzoNapoli;
+
   private FragmentGalleryBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView imageView2,
-      @NonNull ImageView imageView3, @NonNull ImageView imageView4, @NonNull ScrollView scrollView,
-      @NonNull TextView textView2, @NonNull TextView textView3, @NonNull TextView textViewOrso,
+      @NonNull ImageView imageView3, @NonNull ImageView imageView4, @NonNull ImageView imageView5,
+      @NonNull ImageView imageView6, @NonNull ImageView imageView7, @NonNull ImageView imageView8,
+      @NonNull ScrollView scrollView, @NonNull TextView textView2, @NonNull TextView textView3,
+      @NonNull TextView textViewAereoPorto, @NonNull TextView textViewAfterSex,
+      @NonNull TextView textViewCosaCarina, @NonNull TextView textViewMareValde,
+      @NonNull TextView textViewNoiCarini, @NonNull TextView textViewOrso,
       @NonNull TextView textViewPAsseggiataNapoli, @NonNull TextView textViewPager,
-      @NonNull TextView textViewPager2, @NonNull ViewPager2 viewPagerImageSlider,
+      @NonNull TextView textViewPager2, @NonNull TextView textViewPranzoNapoli,
+      @NonNull TextView textViewPrimoPranzoNapoli, @NonNull TextView textViewSecondoMare,
+      @NonNull TextView textViewSoleNapoli, @NonNull ViewPager2 viewPagerAfterSex,
+      @NonNull ViewPager2 viewPagerCarini, @NonNull ViewPager2 viewPagerImageMare2,
+      @NonNull ViewPager2 viewPagerImageSlider, @NonNull ViewPager2 viewPagerImageSliderMare,
       @NonNull ViewPager2 viewPagerImageSliderMemozzi,
-      @NonNull ViewPager2 viewPagerImageSliderNapoli) {
+      @NonNull ViewPager2 viewPagerImageSliderNapoli,
+      @NonNull ViewPager2 viewPagerImageSliderPranzoNapoli) {
     this.rootView = rootView;
     this.imageView2 = imageView2;
     this.imageView3 = imageView3;
     this.imageView4 = imageView4;
+    this.imageView5 = imageView5;
+    this.imageView6 = imageView6;
+    this.imageView7 = imageView7;
+    this.imageView8 = imageView8;
     this.scrollView = scrollView;
     this.textView2 = textView2;
     this.textView3 = textView3;
+    this.textViewAereoPorto = textViewAereoPorto;
+    this.textViewAfterSex = textViewAfterSex;
+    this.textViewCosaCarina = textViewCosaCarina;
+    this.textViewMareValde = textViewMareValde;
+    this.textViewNoiCarini = textViewNoiCarini;
     this.textViewOrso = textViewOrso;
     this.textViewPAsseggiataNapoli = textViewPAsseggiataNapoli;
     this.textViewPager = textViewPager;
     this.textViewPager2 = textViewPager2;
+    this.textViewPranzoNapoli = textViewPranzoNapoli;
+    this.textViewPrimoPranzoNapoli = textViewPrimoPranzoNapoli;
+    this.textViewSecondoMare = textViewSecondoMare;
+    this.textViewSoleNapoli = textViewSoleNapoli;
+    this.viewPagerAfterSex = viewPagerAfterSex;
+    this.viewPagerCarini = viewPagerCarini;
+    this.viewPagerImageMare2 = viewPagerImageMare2;
     this.viewPagerImageSlider = viewPagerImageSlider;
+    this.viewPagerImageSliderMare = viewPagerImageSliderMare;
     this.viewPagerImageSliderMemozzi = viewPagerImageSliderMemozzi;
     this.viewPagerImageSliderNapoli = viewPagerImageSliderNapoli;
+    this.viewPagerImageSliderPranzoNapoli = viewPagerImageSliderPranzoNapoli;
   }
 
   @Override
@@ -129,6 +210,30 @@ public final class FragmentGalleryBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.imageView5;
+      ImageView imageView5 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView5 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView6;
+      ImageView imageView6 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView6 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView7;
+      ImageView imageView7 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView7 == null) {
+        break missingId;
+      }
+
+      id = R.id.imageView8;
+      ImageView imageView8 = ViewBindings.findChildViewById(rootView, id);
+      if (imageView8 == null) {
+        break missingId;
+      }
+
       id = R.id.scrollView;
       ScrollView scrollView = ViewBindings.findChildViewById(rootView, id);
       if (scrollView == null) {
@@ -144,6 +249,36 @@ public final class FragmentGalleryBinding implements ViewBinding {
       id = R.id.textView3;
       TextView textView3 = ViewBindings.findChildViewById(rootView, id);
       if (textView3 == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewAereoPorto;
+      TextView textViewAereoPorto = ViewBindings.findChildViewById(rootView, id);
+      if (textViewAereoPorto == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewAfterSex;
+      TextView textViewAfterSex = ViewBindings.findChildViewById(rootView, id);
+      if (textViewAfterSex == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewCosaCarina;
+      TextView textViewCosaCarina = ViewBindings.findChildViewById(rootView, id);
+      if (textViewCosaCarina == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewMareValde;
+      TextView textViewMareValde = ViewBindings.findChildViewById(rootView, id);
+      if (textViewMareValde == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewNoiCarini;
+      TextView textViewNoiCarini = ViewBindings.findChildViewById(rootView, id);
+      if (textViewNoiCarini == null) {
         break missingId;
       }
 
@@ -171,9 +306,57 @@ public final class FragmentGalleryBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.textViewPranzoNapoli;
+      TextView textViewPranzoNapoli = ViewBindings.findChildViewById(rootView, id);
+      if (textViewPranzoNapoli == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewPrimoPranzoNapoli;
+      TextView textViewPrimoPranzoNapoli = ViewBindings.findChildViewById(rootView, id);
+      if (textViewPrimoPranzoNapoli == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewSecondoMare;
+      TextView textViewSecondoMare = ViewBindings.findChildViewById(rootView, id);
+      if (textViewSecondoMare == null) {
+        break missingId;
+      }
+
+      id = R.id.textViewSoleNapoli;
+      TextView textViewSoleNapoli = ViewBindings.findChildViewById(rootView, id);
+      if (textViewSoleNapoli == null) {
+        break missingId;
+      }
+
+      id = R.id.viewPagerAfterSex;
+      ViewPager2 viewPagerAfterSex = ViewBindings.findChildViewById(rootView, id);
+      if (viewPagerAfterSex == null) {
+        break missingId;
+      }
+
+      id = R.id.viewPagerCarini;
+      ViewPager2 viewPagerCarini = ViewBindings.findChildViewById(rootView, id);
+      if (viewPagerCarini == null) {
+        break missingId;
+      }
+
+      id = R.id.viewPagerImageMare2;
+      ViewPager2 viewPagerImageMare2 = ViewBindings.findChildViewById(rootView, id);
+      if (viewPagerImageMare2 == null) {
+        break missingId;
+      }
+
       id = R.id.viewPagerImageSlider;
       ViewPager2 viewPagerImageSlider = ViewBindings.findChildViewById(rootView, id);
       if (viewPagerImageSlider == null) {
+        break missingId;
+      }
+
+      id = R.id.viewPagerImageSliderMare;
+      ViewPager2 viewPagerImageSliderMare = ViewBindings.findChildViewById(rootView, id);
+      if (viewPagerImageSliderMare == null) {
         break missingId;
       }
 
@@ -189,10 +372,20 @@ public final class FragmentGalleryBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.viewPagerImageSliderPranzoNapoli;
+      ViewPager2 viewPagerImageSliderPranzoNapoli = ViewBindings.findChildViewById(rootView, id);
+      if (viewPagerImageSliderPranzoNapoli == null) {
+        break missingId;
+      }
+
       return new FragmentGalleryBinding((ConstraintLayout) rootView, imageView2, imageView3,
-          imageView4, scrollView, textView2, textView3, textViewOrso, textViewPAsseggiataNapoli,
-          textViewPager, textViewPager2, viewPagerImageSlider, viewPagerImageSliderMemozzi,
-          viewPagerImageSliderNapoli);
+          imageView4, imageView5, imageView6, imageView7, imageView8, scrollView, textView2,
+          textView3, textViewAereoPorto, textViewAfterSex, textViewCosaCarina, textViewMareValde,
+          textViewNoiCarini, textViewOrso, textViewPAsseggiataNapoli, textViewPager, textViewPager2,
+          textViewPranzoNapoli, textViewPrimoPranzoNapoli, textViewSecondoMare, textViewSoleNapoli,
+          viewPagerAfterSex, viewPagerCarini, viewPagerImageMare2, viewPagerImageSlider,
+          viewPagerImageSliderMare, viewPagerImageSliderMemozzi, viewPagerImageSliderNapoli,
+          viewPagerImageSliderPranzoNapoli);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

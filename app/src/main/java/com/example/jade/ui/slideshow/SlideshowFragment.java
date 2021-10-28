@@ -27,22 +27,6 @@ public class SlideshowFragment extends Fragment {
     private SlideshowViewModel slideshowViewModel;
     private FragmentSlideshowBinding binding;
     private String[] linee;
-    {
-        linee = new String[9];
-        try{
-            InputStream in = getContext().getAssets().open("Motivi.txt");
-            LineNumberReader lin = new LineNumberReader(new InputStreamReader(in));
-            String line;
-            int i = 0;
-            while ((line = lin.readLine()) != null){
-                linee[i] = line;
-                i++;
-            }
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-    }
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -78,6 +62,20 @@ public class SlideshowFragment extends Fragment {
     public void generaMotivo(View view){
 
 
+        linee = new String[25];
+        try{
+            InputStream in = getContext().getAssets().open("Motivi.txt");
+            LineNumberReader lin = new LineNumberReader(new InputStreamReader(in));
+            String line;
+            int i = 0;
+            while ((line = lin.readLine()) != null){
+                linee[i] = line;
+                i++;
+            }
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
         TextView tw = binding.textSlideshow;
         Random random = new Random();
         int n = random.nextInt(linee.length);

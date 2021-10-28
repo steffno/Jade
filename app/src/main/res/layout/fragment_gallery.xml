@@ -112,11 +112,154 @@
             <TextView
                 android:id="@+id/textViewPAsseggiataNapoli"
                 android:layout_width="match_parent"
-                android:layout_height="148dp"
+                android:layout_height="192dp"
                 android:fontFamily="monospace"
                 android:text="Ti ricordi quella bellissima passeggiata che facemmo a Napoli? SI, proprio quella che ci fece salire la febbre giusto il giorno prima di fare il tampone per tonrare qui. Mamma mia che momenti di panico. Beh, è stata fottutamente meravigliosa come passeggiata, la rifarei mille volte. Cazzo sì. Però senza febbre la prossimma volta, pretty please"
                 android:textAlignment="center"
                 android:textSize="16sp" />
+
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerImageSliderMare"
+                android:layout_width="match_parent"
+                android:layout_height="425dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"/>
+
+            <TextView
+                android:id="@+id/textViewMareValde"
+                android:layout_width="match_parent"
+                android:layout_height="192dp"
+                android:fontFamily="monospace"
+                android:text="Qui invece andammo al mare con Valde e il suo ragazzo. 2-3 ore di macchina, mica cazzi, sensa sapere dove andavamo. PAURA E DELIRIO. E nonostante quei problemini che avevo(gli acari mi pare) è stata una bellissima giornata, anche se abbiamo fatto tipo 2 fotu bruh. Non vedo l óra di andare al mar econ te di nuovo"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerImageSliderPranzoNapoli"
+                android:layout_width="match_parent"
+                android:layout_height="425dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"/>
+
+            <TextView
+                android:id="@+id/textViewPranzoNapoli"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:fontFamily="monospace"
+                android:text="Una delle nostre ultime merende a Napoli, presto ne avremo di altre UwU"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="549dp"
+                android:src="@drawable/primopranzonapoli" />
+
+            <TextView
+                android:id="@+id/textViewPrimoPranzoNapoli"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:fontFamily="monospace"
+                android:text="Parlando di mangiate a Napoli, invece che tra gli ultimi, questa foto è tra i nostri primi pranzi di Napoli con la pizza a portafoglio. Ricordo che tu dicesti che mi sarei sporcato, ma alla fine la Giadata la fai sempre tu, infatti ti sporcasti tu. COME SEMPRE"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerImageMare2"
+                android:layout_width="match_parent"
+                android:layout_height="425dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"/>
+
+            <TextView
+                android:id="@+id/textViewSecondoMare"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:fontFamily="monospace"
+                android:text="Il nostro secondo mare, solo io e te questa volta. Guarda là che bellini che siamo. OVVIAMENTE PALLIDI COME MOZZARELLE"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="549dp"
+                android:src="@drawable/soleapoli" />
+
+            <TextView
+                android:id="@+id/textViewSoleNapoli"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:fontFamily="monospace"
+                android:text="Niente da vedere qui. Solo noi col sole facendo una passegiata a Napoli, continua a scorrerre cazzo guardi? ANCORA QUI? VAI VIA!"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerAfterSex"
+                android:layout_width="match_parent"
+                android:layout_height="425dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"/>
+
+            <TextView
+                android:id="@+id/textViewAfterSex"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:fontFamily="monospace"
+                android:text="Noi in aftersex! Quanti ne abbiamo fatti, mi piace sempre pensare ai nostri aftersex, mi fa stare bene e mi fa immaginare la tua bellissima pelle sulla mia"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="549dp"
+                android:src="@drawable/cosacarina" />
+            <TextView
+                android:id="@+id/textViewCosaCarina"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:fontFamily="monospace"
+                android:text="Bacino carino. Fine. Cioè, è solo un bacino carino niente di più"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="549dp"
+                android:src="@drawable/aereoporto2" />
+
+            <TextView
+                android:id="@+id/textViewAereoPorto"
+                android:layout_width="match_parent"
+                android:layout_height="218dp"
+                android:fontFamily="monospace"
+                android:text="Salutarti ogni volta che siamo lì, in aereoporto è difficilissimo, mi viene sempre da piangere. È veramente fottutamente difficile. Cazzo se ti amo, e cazzo se fa male vederti andare via. Ma sono sempre sicuro che ci vedremo subito dopo(anche se ultimamente si parla di mesi). Però qui siamo proprio bellini, non potevo non mettere questa foto"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/viewPagerCarini"
+                android:layout_width="match_parent"
+                android:layout_height="425dp"
+                android:paddingStart="40dp"
+                android:paddingEnd="40dp"/>
+
+            <TextView
+                android:id="@+id/textViewNoiCarini"
+                android:layout_width="match_parent"
+                android:layout_height="92dp"
+                android:fontFamily="monospace"
+                android:text="Fotine carine di noi!"
+                android:textAlignment="center"
+                android:textSize="16sp" />
+
+
+
 
         </LinearLayout>
     </ScrollView>
